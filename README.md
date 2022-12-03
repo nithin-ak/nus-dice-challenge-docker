@@ -28,6 +28,8 @@ Command to kill all running containers:
 
 `docker kill $(docker ps -q)`
 
-Command to delete image
+Command to delete image:
+
 `cd ~`
+
 `rm -rf nus-dice-challenge-docker`
