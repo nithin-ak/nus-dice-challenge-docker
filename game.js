@@ -13,10 +13,8 @@ function throwDice(e){
   var randomNumber1 = Math.floor(Math.random() * 6) + 1; /* Generate random number between 1-6 */
   var randomNumber2 = Math.floor(Math.random() * 6) + 1; /* Generate random number between 1-6 */
 
-  var img = ["https://cdn.glitch.global/ed2aef2e-2164-4fa9-a494-61067e6d3472/dice1.png?1669991703606","https://cdn.glitch.global/ed2aef2e-2164-4fa9-a494-61067e6d3472/dice2.png?1669991704386","https://cdn.glitch.global/ed2aef2e-2164-4fa9-a494-61067e6d3472/dice3.png?1669991704933","https://cdn.glitch.global/ed2aef2e-2164-4fa9-a494-61067e6d3472/dice4.png?1669991705715","https://cdn.glitch.global/ed2aef2e-2164-4fa9-a494-61067e6d3472/dice5.png?1669991706275","https://cdn.glitch.global/ed2aef2e-2164-4fa9-a494-61067e6d3472/dice6.png?1669991706825"];
-
-  document.querySelector("img.img1").setAttribute("src",img[randomNumber1-1]);
-  document.querySelector("img.img2").setAttribute("src",img[randomNumber2-1]);
+  document.querySelector("img.img1").setAttribute("src","images/dice"+randomNumber1+".png");
+  document.querySelector("img.img2").setAttribute("src","images/dice"+randomNumber2+".png");
   
   if (player1.toUpperCase() == "NITHIN" || player2.toUpperCase() == "NITHIN"){
   var isNithin = "Y";
