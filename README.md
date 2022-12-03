@@ -5,11 +5,12 @@ Dice Challenge using Docker
 
 #### 1: Clone the Repository
 
-git clone https://github.com/nithin-ak/nus-dice-challenge-docker
+`git clone https://github.com/nithin-ak/nus-dice-challenge-docker`
 
 #### 2: Build Container
 
-change into the directory: 
+change into the directory:
+
 `cd nus-dice-challenge-docker`
 
 `docker build . -t mydicechallenge`
