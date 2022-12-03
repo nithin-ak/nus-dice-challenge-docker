@@ -1,6 +1,12 @@
 # nus-dice-challenge-docker
 Dice Challenge using Docker
 
+A simple dice game to decide a winner.
+
+Runs on docker using Nginx.
+
+Playing against Nithin has a twist at the end
+
 ## Docker Steps
 
 #### 1: Clone the Repository
@@ -17,9 +23,9 @@ change into the directory:
 
 #### 3: Run Container
 
-`docker run -d -p 8080:8080 mydicechallenge`
+`docker run -d -p 8080:80 mydicechallenge`
 
-#### Troubleshoot
+#### Troubleshooting
 
 Show Running containers:
 
@@ -29,7 +35,7 @@ Command to kill all running containers:
 
 `docker kill $(docker ps -q)`
 
-Command to delete image:
+Command to delete directory:
 
 `cd ~`
 

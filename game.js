@@ -18,7 +18,7 @@ function throwDice(e){
   document.querySelector("img.img1").setAttribute("src",img[randomNumber1-1]);
   document.querySelector("img.img2").setAttribute("src",img[randomNumber2-1]);
   
-  if (player1 == "NITHIN" || player2 == "NITHIN"){
+  if (player1.toUpperCase() == "NITHIN" || player2.toUpperCase() == "NITHIN"){
   var isNithin = "Y";
   } else {
     isNithin = "N";
@@ -56,7 +56,6 @@ function webHooks(w,x){
       console.log("Request complete! response:", res);
     });
   }
-
 }
 
 b1.addEventListener('click', throwDice);

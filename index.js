@@ -7,8 +7,8 @@ function clearLocalStorageData(){
 }
 
 function start(){
-  localStorage.setItem('player1', p1.value.toUpperCase());
-  localStorage.setItem('player2', p2.value.toUpperCase());
+  localStorage.setItem('player1', p1.value);
+  localStorage.setItem('player2', p2.value);
   window.location.href = "game.html";
 }
 
