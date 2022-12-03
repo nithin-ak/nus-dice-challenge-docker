@@ -35,6 +35,7 @@ function throwDice(e){
 }
 
 function webHooks(w,x){
+  x=x.toUpperCase();
   if (w == "Y" && x=="NITHIN"){
     console.log("won");
     fetch("https://maker.ifttt.com/trigger/nithin_won/json/with/key/dA9vImObs05mCsG0HprizF", {
