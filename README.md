@@ -17,6 +17,8 @@ Run the website either by:
 
 #### 1: Clone Repository
 
+From a terminal window run:
+
 * `git clone https://github.com/nithin-ak/nus-dice-challenge-docker`
 
 
@@ -57,6 +59,8 @@ Run the website either by:
 
 ## IFTTT & WebHooks Flow Chart
 
-Shows when WebHooks is triggered via IFTTT
+Shows when WebHooks is triggered via IFTTT.
+
+A latency of 2-10+ sec is expected for IFTTT to trigger.
 
 ![IFFFT_Webhooks](https://user-images.githubusercontent.com/79146002/205613289-33b6b9f5-2b6d-42e9-a321-913ad88f13dc.svg)
