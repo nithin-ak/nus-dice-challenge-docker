@@ -2,12 +2,15 @@
 
 A simple dice game to decide a winner. Runs on docker using Nginx. Playing against Nithin has a twist at the end.
 
+Although this can be accomplished via GitHub pages, I've decided to take the Docker route instead.
 
 ## Docker Steps
 
 #### 0: Prerequisites
 
-* [a] Install Docker on your local machine from [here](https://www.docker.com) and run steps steps 1 to 4 (or)
+Run the website either by:
+
+* [a] Installing Docker on your local machine from [here](https://www.docker.com) and run steps 1 to 4 (or)
 
 * [b] via [Google Cloud Shell with Editor](https://ssh.cloud.google.com/cloudshell/editor?hl=en_GB&fromcloudshell=true)
 
