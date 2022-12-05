@@ -31,14 +31,14 @@ A simple dice game to decide a winner. Runs on docker using Nginx. Playing again
 
 #### 4: Launch Website
 
-* [a] If on via Docker on your local machine from --> localhost:8080
+* [a] If via Docker on your local machine, from --> localhost:8080
 
 * [b] via [Google Cloud Shell with Editor](https://ssh.cloud.google.com/cloudshell/editor?hl=en_GB&fromcloudshell=true) using this icon
 
 <img width="265" alt="Preview" src="https://user-images.githubusercontent.com/79146002/205598104-740ade52-6a05-4cc2-8ec5-5b58489e8605.png">
 
 
-#### 5: Troubleshooting
+#### 5: Basic Troubleshooting
 
 * Show Running containers : `docker ps`
 
@@ -54,5 +54,6 @@ A simple dice game to decide a winner. Runs on docker using Nginx. Playing again
 
 ## IFTTT & WebHooks Flow Chart
 
+Shows when WebHooks is triggered via IFTTT
 
 ![IFFFT_Webhooks](https://user-images.githubusercontent.com/79146002/205613289-33b6b9f5-2b6d-42e9-a321-913ad88f13dc.svg)
