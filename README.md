@@ -10,7 +10,7 @@ Playing against Nithin has a twist at the end
 
 #### 0: Prerequisites
 
-* [a] Install Docker on your local machine from [here](https://www.docker.com) and run steps steps 1 to 3 (or)
+* [a] Install Docker on your local machine from [here](https://www.docker.com) and run steps steps 1 to 4 (or)
 
 * [b] via [Google Cloud Shell with Editor](https://ssh.cloud.google.com/cloudshell/editor?hl=en_GB&fromcloudshell=true)
 
@@ -32,13 +32,13 @@ change into the directory:
 
 #### 4: Launch Website
 
-* [a] If on via Docker on your local machine from localhost:8080
+* [a] If on via Docker on your local machine from --> localhost:8080
 
 * [b] via [Google Cloud Shell with Editor](https://ssh.cloud.google.com/cloudshell/editor?hl=en_GB&fromcloudshell=true) using this icon
 
 <img width="265" alt="Preview" src="https://user-images.githubusercontent.com/79146002/205598104-740ade52-6a05-4cc2-8ec5-5b58489e8605.png">
 
-#### Troubleshooting
+#### 5: Troubleshooting
 
 Show Running containers:
 
