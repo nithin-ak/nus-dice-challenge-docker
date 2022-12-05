@@ -14,7 +14,7 @@ Playing against Nithin has a twist at the end
 
 * [b] via [Google Cloud Shell with Editor](https://ssh.cloud.google.com/cloudshell/editor?hl=en_GB&fromcloudshell=true)
 
-#### 1: Clone the Repository
+#### 1: Clone Repository
 
 `git clone https://github.com/nithin-ak/nus-dice-challenge-docker`
 
@@ -30,7 +30,7 @@ change into the directory:
 
 `docker run -d -p 8080:80 mydicechallenge`
 
-#### 4: Launch the website
+#### 4: Launch Website
 
 * [a] If on via Docker on your local machine from localhost:8080
 
