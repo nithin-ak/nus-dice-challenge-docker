@@ -5,6 +5,7 @@ var player2 = localStorage.getItem('player2');
 function catchLocalStorageData() {
     document.getElementById("player1").innerHTML = player1;
     document.getElementById("player2").innerHTML = player2;
+    document.querySelector("#christmasTree").innerHTML = "";
 };
 
 function throwDice(e){
@@ -35,6 +36,7 @@ function throwDice(e){
 }
 
 function webHooks(w,x){
+  christmasTreeImg = `<iframe src="https://giphy.com/embed/tsJajNVp1Xd8IA2v9k" width="100" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>`
   x=x.toUpperCase();
   if (w == "Y" && x=="NITHIN"){
     console.log("won");
@@ -45,6 +47,7 @@ function webHooks(w,x){
     }).then(res => {
       console.log("Request complete! response:", res);
     });
+    document.querySelector("#christmasTree").innerHTML = christmasTreeImg;
   } else if (w == "Y" && x!="NITHIN") {
     console.log("lost");
     fetch("https://maker.ifttt.com/trigger/nithin_lost/json/with/key/dA9vImObs05mCsG0HprizF", {
@@ -54,6 +57,7 @@ function webHooks(w,x){
     }).then(res => {
       console.log("Request complete! response:", res);
     });
+    document.querySelector("#christmasTree").innerHTML = "";
   }
 }
 
