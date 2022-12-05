@@ -1,10 +1,7 @@
 # Dice Challenge using Docker & WebHooks
 
-A simple dice game to decide a winner.
+A simple dice game to decide a winner. Runs on docker using Nginx. Playing against Nithin has a twist at the end.
 
-Runs on docker using Nginx.
-
-Playing against Nithin has a twist at the end.
 
 ## Docker Steps
 
@@ -52,6 +49,7 @@ Playing against Nithin has a twist at the end.
   * `cd ~`
 
   * `rm -rf nus-dice-challenge-docker`
+
 
 
 ## Flow Chart
