@@ -1,5 +1,4 @@
-# nus-dice-challenge-docker
-Dice Challenge using Docker
+# Dice Challenge using Docker
 
 A simple dice game to decide a winner.
 
@@ -8,6 +7,11 @@ Runs on docker using Nginx.
 Playing against Nithin has a twist at the end
 
 ## Docker Steps
+
+#### 0: Prerequisites
+
+*[1] Install Docker on your local machine from [here](https://www.docker.com) and run steps steps 1 to 3 (or)
+*[2] via [Google Cloud Shell with Editor](https://ssh.cloud.google.com/cloudshell/editor?hl=en_GB&fromcloudshell=true)
 
 #### 1: Clone the Repository
 
