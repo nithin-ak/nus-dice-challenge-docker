@@ -10,9 +10,9 @@ Playing against Nithin has a twist at the end
 
 #### 0: Prerequisites
 
-*[a] Install Docker on your local machine from [here](https://www.docker.com) and run steps steps 1 to 3 (or)
+* [a] Install Docker on your local machine from [here](https://www.docker.com) and run steps steps 1 to 3 (or)
 
-*[b] via [Google Cloud Shell with Editor](https://ssh.cloud.google.com/cloudshell/editor?hl=en_GB&fromcloudshell=true)
+* [b] via [Google Cloud Shell with Editor](https://ssh.cloud.google.com/cloudshell/editor?hl=en_GB&fromcloudshell=true)
 
 #### 1: Clone the Repository
 
