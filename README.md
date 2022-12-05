@@ -4,7 +4,7 @@ A simple dice game to decide a winner.
 
 Runs on docker using Nginx.
 
-Playing against Nithin has a twist at the end
+Playing against Nithin has a twist at the end.
 
 ## Docker Steps
 
