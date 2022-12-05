@@ -1,4 +1,4 @@
-# Dice Challenge using Docker
+# Dice Challenge using Docker & WebHooks
 
 A simple dice game to decide a winner.
 
@@ -14,21 +14,23 @@ Playing against Nithin has a twist at the end.
 
 * [b] via [Google Cloud Shell with Editor](https://ssh.cloud.google.com/cloudshell/editor?hl=en_GB&fromcloudshell=true)
 
+
 #### 1: Clone Repository
 
-`git clone https://github.com/nithin-ak/nus-dice-challenge-docker`
+* `git clone https://github.com/nithin-ak/nus-dice-challenge-docker`
+
 
 #### 2: Build Container
 
-change into the directory:
+* Change into the directory : `cd nus-dice-challenge-docker`
 
-`cd nus-dice-challenge-docker`
+* Start Build: `docker build . -t mydicechallenge`
 
-`docker build . -t mydicechallenge`
 
 #### 3: Run Container
 
-`docker run -d -p 8080:80 mydicechallenge`
+* `docker run -d -p 8080:80 mydicechallenge`
+
 
 #### 4: Launch Website
 
@@ -38,18 +40,17 @@ change into the directory:
 
 <img width="265" alt="Preview" src="https://user-images.githubusercontent.com/79146002/205598104-740ade52-6a05-4cc2-8ec5-5b58489e8605.png">
 
+
 #### 5: Troubleshooting
 
-Show Running containers:
+* Show Running containers : `docker ps`
 
-`docker ps`
+* Kill all running containers : `docker kill $(docker ps -q)`
 
-Command to kill all running containers:
+* To delete directory:
 
-`docker kill $(docker ps -q)`
+  * `cd ~`
 
-Command to delete directory:
+  * `rm -rf nus-dice-challenge-docker`
 
-`cd ~`
 
-`rm -rf nus-dice-challenge-docker`
